@@ -1,0 +1,99 @@
+@media (min-width: 768px) {
+
+
+
+
+
+    #frontpageimage {
+
+        height: 50vh;
+
+        width: auto;
+
+        background-image: url("http://thaople.com/storage/app/media/mainpage/FINAL_small_cropped.png");
+
+        /*background-repeat: no-repeat;*/
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center; 
+
+    }
+
+    
+
+    
+
+    .frontimage {
+
+        height: 50vh;
+
+        width: auto;
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center; 
+
+    }
+    
+    .clear {
+        clear: both;
+        height: 100px;
+    }
+
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .clear {
+        clear: both;
+        height: 60px;
+    }
+
+    #frontpageimage {
+
+        height: 50vh;
+
+        width: auto;
+
+        background-image: url("http://thaople.com/storage/app/media/mainpage/FINAL_small_cropped.png");
+
+        /*background-repeat: no-repeat;*/
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center; 
+
+    }
+
+    
+
+    .frontimage {
+
+        height: 50vh;
+
+        width: auto;
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center; 
+
+    }
+
+    
+
+}

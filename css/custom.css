@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+
+
+
+
+
+
+
+/*@font-face {
+
+    font-family: "Stellar Light";
+
+    src: url('css/fonts/Stellar-light-webfont.eot'); /* IE9 Compat Modes */
+
+    /*src:
+
+    url('css/fonts/Stellar-light-webfont.eot?#iefix') format('embedded-opentype'),
+
+    url("css/fonts/Stellar-light-webfont.woff2") format("woff2"),
+
+    url("css/fonts/Stellar-light-webfont.woff") format("woff"),
+
+    url("css/fonts/Stellar-light-webfont.ttf") format("truetype"),
+
+    url("css/fonts/Stellar-light.otf") format("opentype"),
+
+    url("css/fonts/Stellar-light-webfont.svg#Stellar-light-webfont") format("svg");
+
+}*/
+
+
+
+
+
+
+
+
+
+body {
+
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+
+    font-weight: 300;
+
+}
+
+
+
+.navbar{
+
+    background-color: white;
+
+    color: gray;
+
+}
+
+
+
+.navbar-default .navbar-brand {
+
+    color: gray;
+
+}
+
+
+
+.navbar-default .navbar-nav li a {
+
+    color: gray;
+
+}
+
+
+
+section.success {
+
+    color: black;
+
+    background: white;
+
+    min-height: 50vh;
+
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+
+    font-weight: 300;
+
+}
+
+
+
+
+
+p {
+
+    font-family: 'Open Sans', Verdana, Arial,sans-serif !important;
+
+    font-weight: 300;
+    
+    font-size: 18px;
+
+}
+
+ul {
+    font-size: 18px;
+}
+
+
+
+.faq-question {
+
+    font-weight: bold;
+
+}
+
+
+
+#about a {
+
+    font-weight: bold;
+
+}
+
+
+
+.col-content a {
+
+     font-weight: bold;
+
+}
+
+
+
+.col-content a p {
+
+    font-weight: bold;
+
+}
+
+
+
+h2 {
+
+    font-family:'Open Sans', Verdana, Arial,sans-serif;
+
+    font-weight: 300;
+
+    font-size: 2em;
+
+}
+
+
+
+section h2{
+
+    font-size: 2em;
+
+}
+
+
+
+h3 {
+
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+
+    font-weight: bold;
+
+    font-size: 1.5em;
+
+    padding-top: 1em;
+
+    padding-bottom: 0.5em;
+
+    
+
+}
+
+.posterpage h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.posterpage img, .posterpage .row .col-content a img, #darkstates img{
+    width: 100%;
+}
+
+.posterpage .poster-box h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+}
+
+.posterpage strong{
+    font-weight: 700;
+}
+
+.posterpage emph{
+    font-style: italic;
+}
+
+/*.posterpage ul, .posterpage ol{
+    font-size: 20px;
+}*/
+
+#darkstates ul, #temporal #references ul{
+    list-style-type: none;
+}
+
+.posterpage h5{
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+    font-style: italic;
+}
+
+#author-info{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+
+span#authors{
+    font-weight: 700;
+}
+
+
+
+.poster-box{
+    padding:1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-radius: 5px;
+}
+
+
+
+.posterpage .poster-box h5.discord {
+    font-weight: normal;
+    font-size: 1.25em;
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+    font-style: normal;
+}
+
+.posterpage  span.journalauthors {
+    font-weight: 700;
+}
+
+.posterpage  span.journalref {
+    font-weight:300;
+    font-size: 0.75em;
+    margin-left: 0.3em;
+}
+
+
+.navbar{
+
+    font-family: 'Open Sans', Verdana, Arial,sans-serif;
+
+    text-align: center;
+
+}
+
+
+
+.footer-below, footer, footer .footer-below{
+
+    /*background-image: url("http://thaople.com/storage/app/media/willow%20by%20the%20water_patterned.png");*/
+
+    /*background-color: #BCE3A7;*/
+    /*background-color: gray;*/
+
+    background-size: cover;
+
+    background-position: center bottom; 
+
+    height: 10vh;
+    clear: both;
+
+}
+
+
+
+.col-title {
+
+    float: left;
+
+    width: 20%;
+
+    /*margin-top: -0.2em;
+
+    /*padding-left: 5em;*/
+
+    text-align: right;
+
+    padding-right: 5em;
+
+    vertical-align: top;
+
+}
+
+
+
+.col-content {
+
+    float: right;
+
+    width: 80%;
+
+}
+
+
+
+navbar .headerfoot{
+
+    display:none;
+
+}
+
+
+
+.navbar .navbar-default .navbar-fixed-top {
+
+    padding-bottom:0px;
+
+}
+
+
+
+
+
+
+
+section{
+
+    padding-top: 80px;
+
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+
+    background-color: #3183f5;/*#18bc9c;*/
+
+}
+
+
+
+#faq{
+
+    /*min-height: 80vh;*/
+
+}
+
+
+
+
+
+#errorPage{
+
+    /*height: 50vh;*/
+
+    margin: auto;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    font-size: 2em;
+
+    margin-top: 20vh;
+
+    margin-bottom: 40vh;
+    
+    
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .col-title, .col-content {
+
+        width: 100%;
+
+        float: left;
+
+        padding: 1em;
+
+        margin-left: 1em;
+
+        margin-right: 1em;
+
+    }
+
+    
+
+    .col-title {
+
+        text-align: center;
+
+        vertical-align: top;
+
+    }
+
+    
+
+    /*.collapse.navbar-collapse.headerfoot {
+
+        margin-top: 10px;
+
+        height: 10px;
+
+        width: auto;
+
+        background-image: url("http://thaople.com/storage/app/media/willow%20by%20the%20water_patterned.png");
+
+        /*background-repeat: no-repeat;*/
+
+        /*background-size: cover;
+
+        display: block;
+
+        background-position: center bottom;
+
+    }*/
+
+    
+
+    .headerfoot-mobile{
+
+        display: none;
+
+    }
+
+    
+
+    .collapse.navbar-collapse.headerfoot {
+
+        margin-top: 10px;
+
+        height: 10px;
+
+        width: auto;
+
+        /*background-image: url("http://thaople.com/storage/app/media/willow%20by%20the%20water_patterned.png");*/
+
+        /*background-color: #BCE3A7;*/
+        background-color: gray;
+
+        /*background-repeat: no-repeat;*/
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center bottom;
+
+    }
+
+    
+
+    .navbar-toggle {
+
+        background-color: #3183f5;/*#18bc9c;*/
+
+        border-color: white;
+
+    }
+
+    
+
+    .navbar-default .navbar-toggle {
+
+        border-color: white;
+
+    }
+
+    
+
+    a.btn.btn-primary{
+
+        background-color:  #3183f5;/*#18bc9c;*/
+
+        border-color:  #3183f5;/*#18bc9c;*/
+
+    }
+
+    
+
+    .col-content img{
+
+        width: 45%;
+
+        float: none;
+
+        margin: auto;
+
+    }
+
+    
+
+    .col-content {
+
+        padding-right: 30px;
+
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .navbar-header,.navbar-brand, a .navbar-brand, .navbar-header .page-scroll, ul.navbar-nav.navbar-right{
+
+        float: none;
+
+        clear: both;
+
+        width: 100%;
+
+        margin: auto !important;
+
+        /*clear: both;
+
+        float: right;
+
+        left: -50%;
+
+        position: relative;*/
+
+        text-align: center;
+
+    }
+
+    
+
+    .navbar {
+
+        padding-top: 45px;
+
+    }
+
+    
+
+
+
+    ul.navbar-nav.navbar-right > li {
+
+        position: relative;
+
+        /*left: 50%;*/
+
+        display:inline-block;
+
+    }
+
+    
+
+    .navbar-header.page-scroll {
+
+        /*padding-bottom: 25px;*/
+
+        /*margin-bottom:25px;*/
+
+    }
+
+    
+
+    .navbar-nav > li > a {
+
+        padding-top: 10px;
+
+        padding-bottom: 10px;
+
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+
+        padding-bottom: 0px;
+
+    }
+
+    
+
+    .navbar-fixed-top {
+
+        padding-bottom: 0px;
+
+    }
+
+    
+
+    nav.navbar.navbar-default.navbar-fixed-top > .container > .navbar-header.page-scroll > a.navbar-brand, nav.navbar.navbar-default.navbar-fixed-top > .container > .navbar-header.page-scroll {
+
+        padding-bottom: 25px;
+
+        clear: both;
+
+    }
+
+    
+
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-shrink > .container > .navbar-header.page-scroll > a.navbar-brand, nav.navbar.navbar-default.navbar-fixed-top.navbar-shrink > .container > .navbar-header.page-scroll {
+
+        padding-bottom: 10px;
+
+    }
+
+    
+
+    .navbar-shrink .headerfoot::after{
+
+        margin-top: 10px;
+
+        height: 10px;
+
+        width: auto;
+
+        /*background-image: url("http://thaople.com/storage/app/media/willow%20by%20the%20water_patterned.png");*/
+
+        /*background-color: #BCE3A7;*/
+        background-color: gray;
+
+        /*background-repeat: no-repeat;*/
+
+        background-size: cover;
+
+        display: block;
+
+        background-position: center bottom;
+
+    }
+
+    
+
+    .col-content img{
+
+        width: 45%;
+
+        float: none;
+
+        margin: auto;
+
+    }
+
+    
+
+}
