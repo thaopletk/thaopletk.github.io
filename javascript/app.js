@@ -7,7 +7,7 @@
 /*
  * require
  * 
-=require ../vendor/bootstrap/bootstrap.min.js
+=require vendor/bootstrap/bootstrap.min.js
  */
  
 
